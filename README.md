@@ -11,3 +11,4 @@
 
 - [命名约定](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/NamingConvention.md)
 - [语义话命名](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Semantics.md)
+- [单一责任原则](https://github.com/kevinyan815/laravel_best_practices_cn/tree/master/src/CodeConvention)
