@@ -37,7 +37,7 @@ public function getFullNameLong()
 
 public function getFullNameShort()
 {
-    return $this->first_name[0] . '. ' . $this->last_name;
+    return $this->first_name[0] . '.' . $this->last_name;
 }
 ```
 
