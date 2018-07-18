@@ -1,0 +1,2 @@
+# laravel_best_practices_cn
+Laravel最佳实践
