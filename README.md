@@ -12,3 +12,5 @@
 - [命名约定](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/NamingConvention.md)
 - [语义话命名](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Semantics.md)
 - [单一责任原则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/SingleResponsibility.md)
+- [使用依赖注入和Facade](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/IOCandFacade.md)
+- [应用代码层次](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/CodeLayer.md)
