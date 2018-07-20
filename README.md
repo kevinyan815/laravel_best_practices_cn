@@ -14,3 +14,4 @@
 - [单一责任原则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/SingleResponsibility.md)
 - [使用依赖注入和Facade](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/IOCandFacade.md)
 - [应用代码层次](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/CodeLayer.md)
+- [路由](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Route.md)
