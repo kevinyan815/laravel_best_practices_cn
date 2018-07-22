@@ -7,6 +7,8 @@
 
 随着时间的推移和对软件开发的理解我也很有可能会推翻之前的一些思路，对一些已分享的最佳实践进行重写。
 
+另外如果你对Laravel内核实现原理感兴趣可以参考我写的[Laravel内核阅读指南](https://github.com/kevinyan815/Learning_Laravel_Kernel)
+
 ### 目录
 
 - [命名约定](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/NamingConvention.md)
