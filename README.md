@@ -17,3 +17,7 @@
 - [使用依赖注入和Facade](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/IOCandFacade.md)
 - [应用代码层次](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/CodeLayer.md)
 - [路由](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Route.md)
+
+### 其他推荐
+
+- [Laravel内核学习指南](https://github.com/kevinyan815/Learning_Laravel_Kernel)
