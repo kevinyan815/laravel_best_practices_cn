@@ -19,6 +19,7 @@
 - [路由](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Route.md)
 - [控制器](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Controller.md)
 - [数据模型](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Model.md)
+- [数据库管理](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/DatabaseManage.md)
 
 ### 其他推荐
 
