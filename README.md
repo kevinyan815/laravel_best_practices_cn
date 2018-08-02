@@ -20,6 +20,8 @@
 - [控制器](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Controller.md)
 - [数据模型](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Model.md)
 - [数据库管理](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/DatabaseManage.md)
+- [Service服务类](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Service.md)
+- [事件驱动编程](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/EDP.md)
 
 ### 其他推荐
 
