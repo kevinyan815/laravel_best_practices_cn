@@ -6,5 +6,6 @@
 下面几篇文章是我翻译的国外开发者在Medium上分享的TDD教程:
 
 - [简单的十一步在Laravel中实现测试驱动开发](https://segmentfault.com/a/1190000015653724)
-- [CRUD Unit Testing in Laravel5](https://segmentfault.com/a/1190000015738971)
-- [Negative CRUD Testing in Laravel5](https://segmentfault.com/a/1190000015777098)
+- [Laravel测试驱动开发之正向单元测试](https://segmentfault.com/a/1190000015738971)
+- [Laravel测试驱动开发之反向单元测试](https://segmentfault.com/a/1190000015777098)
+- [Laravel测试驱动开发之功能测试](https://segmentfault.com/a/1190000015922734)
