@@ -78,7 +78,9 @@
     $user->hasPermissionTo('edit articles');
     ```
     
-更详细的使用方法请参考GitHub项目的README文件: https://github.com/spatie/laravel-permission    
+更详细的使用方法请参考GitHub项目的README文件: https://github.com/spatie/laravel-permission 
+
+此外还有外国网友专门基于`laravel-permission`这个包做了一套后台界面, 也是很不错的资源 https://github.com/LaravelDaily/laravel-roles-permissions-manager
 
 ### 使用Policy处理用户授权动作
 
