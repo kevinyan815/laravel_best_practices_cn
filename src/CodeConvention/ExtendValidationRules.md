@@ -1,4 +1,4 @@
-# 扩展Validator规则
+# 自定义Validator规则
 
 项目中扩展了一些验证规则， 可以作为Laravel自带验证规则的补充应用到项目中
 
@@ -83,4 +83,92 @@ class ValidatorServiceProvider extends ServiceProvider
 2. 'name' => 'not_exists:accesses,name,deleted_at,NULL'......;//额外条件可以直接在后面附加字段和字段值
 ```
 
+### 使用规则对象实现超级复杂的验证规则
 
+```
+<?php
+
+namespace App\Rules;
+
+use Illuminate\Contracts\Validation\Rule;
+
+class ValidElementRule implements Rule
+{
+
+    /**
+     * Create a new rule instance.
+     * @param Illuminate\Request $request
+     * @return void
+     */
+    public function __construct($request)
+    {
+        $this->request = $request;
+    }
+
+
+    /**
+     * 判断验证规则是否通过。
+     *
+     * @param  string  $attribute
+     * @param  mixed  $value
+     * @return bool
+     */
+    public function passes($attribute, $value)
+    {
+        //some complicated judgement
+        if ($value == $something && $this->request->input('key') {
+            // if element is not valid then return false
+            return false;
+        }
+        
+        return true
+    }
+
+    /**
+     * 获取验证错误信息。
+     *
+     * @return string
+     */
+    public function message()
+    {
+        return 'The :attribute must be ......';
+    }
+}
+```
+
+一旦规则对象被定义好后，你可以通过将规则对象的实例传递给其他验证规则来将其附加到验证器：
+
+```
+
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+use App\Rules\ValidElementRule;
+class UpdateElementRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'element' => ['required', new ValidElementRule($this)]
+        ];
+    }
+}
+
+```
