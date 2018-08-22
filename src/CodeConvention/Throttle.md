@@ -50,6 +50,8 @@ Route::group(['prefix'=>'api','middleware'=>'throttle:5,10'],function(){
     });
 });//频次上限5，重试等待时间10分钟
 ```
+***注： Laravel5.5的api route文件里的路由会默认应用api中间件组，在这个中间件组中包含throttle中间件并且设定了默认每分钟60次的限制***
+
 ### 自定义Throttle中间件，返回API响应
 在请求频次达到上限后Throttle除了返回那些响应头，返回的响应内容是一个HTML页面，页面上告诉我们Too Many Attempts。在调用API的时候我们显然更希望得到一个json响应，下面提供一个自定义的中间件替代默认的Throttle中间件来自定义响应信息。
 
