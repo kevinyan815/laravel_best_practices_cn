@@ -121,7 +121,7 @@ class UserController extends Controller
     }
 }
 ```
-*** 注意: 隐式模型绑定是由\Illuminate\Routing\Middleware\SubstituteBindings中间件来完成的,想要使用模型绑定就必须应用上这个中间件 ***
+***注意: 隐式模型绑定是由\Illuminate\Routing\Middleware\SubstituteBindings中间件来完成的,想要使用模型绑定就必须应用上这个中间件***
  
 在这个例子中，由于`$user`变量被类型提示为 Eloquent 模型 User，变量名称又与 URI 中的 `{user}` 匹配，因此Laravel 会自动注入与请求 URI 中传入的 ID 匹配的用户模型实例。如果在数据库中找不到对应的模型实例，将会抛出`ModelNotFound`异常
 
