@@ -11,22 +11,24 @@
 
 ### 目录
 
-- [命名约定](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/NamingConvention.md)
-- [语义话命名](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Semantics.md)
-- [单一责任原则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/SingleResponsibility.md)
-- [使用依赖注入和Facade](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/IOCandFacade.md)
-- [应用代码层次](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/CodeLayer.md)
-- [路由](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Route.md)
-- [控制器](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Controller.md)
-- [数据模型](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Model.md)
-- [数据库管理](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/DatabaseManage.md)
-- [Service服务类](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Service.md)
-- [事件驱动编程](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/EDP.md)
-- [测试驱动开发](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/TDD.md)
-- [扩展Validation规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/ExtendValidationRules.md)
-- [Rule对象应对复杂的验证规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/UseRuleObject.md)
-- [权限控制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/PermissonOrPolicy.md)
-- [API请求频率限制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Throttle.md)
+- 代码规范
+  - [命名约定](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/NamingConvention.md)
+  - [语义话命名](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Semantics.md)
+  - [单一责任原则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/SingleResponsibility.md)
+  - [使用依赖注入和Facade](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/IOCandFacade.md)
+  - [应用代码层次](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/CodeLayer.md)
+- 最佳实践  
+  - [路由](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Route.md)
+  - [控制器](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Controller.md)
+  - [数据模型](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Model.md)
+  - [数据库管理](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/DatabaseManage.md)
+  - [Service服务类](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Service.md)
+  - [事件驱动编程](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/EDP.md)
+  - [测试驱动开发](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/TDD.md)
+  - [扩展Validation规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/ExtendValidationRules.md)
+  - [Rule对象应对复杂的验证规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/UseRuleObject.md)
+  - [权限控制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/PermissonOrPolicy.md)
+  - [API请求频率限制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Throttle.md)
 
 ### 其他推荐
 
