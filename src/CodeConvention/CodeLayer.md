@@ -23,10 +23,10 @@
 $admins = User::where('type', 'admin')->get();
 ```   
 
-现在假设你需要在不止一个Controller方法中用到这个查询， 你可以在`UserService`类里包装对`User`模型的访问:
+现在假设你需要在不止一个Controller方法中用到这个查询， 你可以在`UserRepository`类里包装对`User`模型的访问:
 
 ```php
-class UserService
+class UserRepository
 {
     public function getAlladmins()
     {
@@ -35,18 +35,18 @@ class UserService
 }
 ```
 
-现在你可以在用到`UserService`的`Controller`中通过依赖注入`UserService`, 然后通过这个Service方法来获取所有管理员用户:
+现在你可以在用到`UserService`的`Controller`中通过依赖注入`UserRepository`, 然后通过这个UserRepository方法获取所有管理员用户:
    
 ```php
 //Controller
-public function __construct(UserService $userService)
+public function __construct(UserRepository $UserRepository)
 {
-    $this->userService = $userService;
+    $this->UserRepository = $UserRepository;
 }
 //Controller action
 public function index()
 {
-    $admins = $this->userService->getAllAdmins();
+    $admins = $this->UserRepository->getAllAdmins();
 }
 ```
 
@@ -72,7 +72,7 @@ public function scopeAdmins($query)
 然后在UserService里我们可以向下面这样重写它的查询:
    		
 ```php
-//UserService
+//UserRepository
 public function getAllAdmins()
 {
     return User:admins()->get();
