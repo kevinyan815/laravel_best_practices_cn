@@ -125,6 +125,20 @@ class UserController extends Controller
  
 在这个例子中，由于`$user`变量被类型提示为 Eloquent 模型 User，变量名称又与 URI 中的 `{user}` 匹配，因此Laravel 会自动注入与请求 URI 中传入的 ID 匹配的用户模型实例。如果在数据库中找不到对应的模型实例，将会抛出`ModelNotFound`异常
 
+### 依赖注入
+控制器的方法支持依赖注入，控制器方法中我们常用的请求`Request`对象就是通过Laravel的服务容器注入进去的，在控制器方法中定义了路由参数、以及路由参数模型绑定后如果你还需要注入其他依赖，很简单在路由参数前添加你需要注入的依赖参数就好了。比如下面的例子
+```
+class UserController extends Controller
+{
+    public function update(Request $request, UserRepository $userRepo, User $user)
+    {
+        //$request request对象
+        //$userRepo UserRepository对象
+    }
+}
+```
+
+
 ### 保持精炼
 
 绝不遗留「死方法」，就是没有用到的方法，控制器里的所有方法，都应该被使用到，否则应该删除；
