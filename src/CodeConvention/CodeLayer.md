@@ -35,7 +35,7 @@ class UserRepository
 }
 ```
 
-现在你可以在用到`UserService`的`Controller`中通过依赖注入`UserRepository`, 然后通过这个UserRepository方法获取所有管理员用户:
+现在你可以在用到`UserRepository`的`Controller`中通过依赖注入`UserRepository`, 然后通过这个UserRepository方法获取所有管理员用户:
    
 ```php
 //Controller
@@ -69,7 +69,7 @@ public function scopeAdmins($query)
 }
 ```
        
-然后在UserService里我们可以向下面这样重写它的查询:
+然后在UserRepository里我们可以向下面这样重写它的查询:
    		
 ```php
 //UserRepository
