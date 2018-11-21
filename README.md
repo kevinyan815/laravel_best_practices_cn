@@ -24,11 +24,12 @@
   - [数据库管理](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/DatabaseManage.md)
   - [Service服务类](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Service.md)
   - [事件驱动编程](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/EDP.md)
-  - [测试驱动开发](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/TDD.md)
   - [扩展Validation规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/ExtendValidationRules.md)
   - [Rule对象应对复杂的验证规则](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/UseRuleObject.md)
   - [权限控制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/PermissonOrPolicy.md)
   - [API请求频率限制](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/Throttle.md)
+- 测试用例
+  - [测试驱动开发](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/TDD.md)
 - Nginx配置
   - [前后端分离项目的Nginx配置推荐](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/NginxConf/OneDomainHostMultiSites.conf)
  
