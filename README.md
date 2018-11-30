@@ -38,3 +38,4 @@
 ### 其他推荐
 
 - [Laravel内核学习指南](https://github.com/kevinyan815/Learning_Laravel_Kernel)
+- [Laravel Gitlab持续集成](https://github.com/kevinyan815/gitlab-ci)
