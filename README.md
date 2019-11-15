@@ -33,7 +33,7 @@
   - [测试驱动开发](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/TestCase/TDD.md)
   - [功能测试](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/TestCase/FeatureTest.md)
 - 构建大型项目
-  - [Laravel大型项目脚手架](https://github.com/kevinyan815/laravel-bootstrapper)
+  - [Laravel大型项目脚手架](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/CodeConvention/LargeProjectBootstrapper.md)
 - Nginx配置
   - [前后端分离项目的Nginx配置推荐](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/src/NginxConf/OneDomainHostMultiSites.conf)
  
