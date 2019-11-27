@@ -11,7 +11,7 @@
 
 总结：所以如果一个请求对应的业务逻辑相当复杂，我们可以通过Controller方法调用一个或者多个Service方法(单一逻辑)来完成这个复杂的逻辑，在Service方法中我们通过Repository操作来实现更新、获取数据。通过这种原则来对复杂逻辑进行解耦。
 
-![image](https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/images/Service%26Repository.png)
+<img src="https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/images/Service%26Repository.png" width="400px" height="400px"/>
 
 
 我们通过看两个例子来更好的理解代码如何分层：
