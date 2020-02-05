@@ -45,3 +45,7 @@
 
 ### 捐赠
 <img src="https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/images/WechatDonation.jpeg" width="300px" height="300px"/>
+
+### 联系我
+
+![](https://cdn.learnku.com/uploads/images/202002/01/6964/SOlZv7VYw3.png!large)
