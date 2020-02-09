@@ -48,4 +48,4 @@
 
 ### 联系我
 
-![](https://cdn.learnku.com/uploads/images/202002/01/6964/SOlZv7VYw3.png!large)
+![](https://cdn.learnku.com/uploads/images/202002/01/6964/SOlZv7VYw3.png)
