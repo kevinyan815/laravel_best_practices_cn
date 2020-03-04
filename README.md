@@ -40,8 +40,8 @@
 
 ### 其他推荐
 
+- [Go Web编程入门指南](https://github.com/kevinyan815/go_web_programming)
 - [Laravel内核学习指南](https://github.com/kevinyan815/Learning_Laravel_Kernel)
-- [Laravel Gitlab持续集成](https://github.com/kevinyan815/gitlab-ci)
 
 ### 捐赠
 <img src="https://github.com/kevinyan815/Learning_Laravel_Kernel/blob/master/images/WechatDonation.jpeg" width="300px" height="300px"/>
