@@ -13,8 +13,6 @@
 
 <img src="https://github.com/kevinyan815/laravel_best_practices_cn/blob/master/images/Service%26Repository.png" width="400px" height="400px"/>
 
-<img src="https://cdn.learnku.com/uploads/images/202005/06/6964/QXe6ZUGZvQ.png" width="400px" height="400px"/>
-
 
 我们通过看两个例子来更好的理解代码如何分层：
 
